@@ -1,0 +1,20 @@
+.mainMenu{
+  font-family: "Nanum Gothic B";
+  color: black;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+.header_top{
+  background-color: #252525;
+  width: 100%;
+}
+
+.TextA {
+  font-family: "Nanum Gothic B";
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+}
