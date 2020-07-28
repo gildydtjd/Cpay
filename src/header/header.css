@@ -7,6 +7,10 @@
   cursor: pointer;
 }
 
+.menu_Td{
+  width: 15%;
+}
+
 .header_top{
   background-color: #252525;
   width: 100%;

@@ -20,9 +20,11 @@ export default class Header extends Component {
                 <table style={{ marginRight:'10px', marginLeft :'19%'}}>
                   <tbody>
                     <tr>
-                      <td className="TextA" style={{paddingRight:'60px', cursor:'pointer'}}>LOGIN</td>
-                      <td className="TextA" style={{paddingRight:'60px', cursor:'pointer'}}>SIGN UP</td>
-                      <td className="TextA" style={{cursor:'pointer'}}>FIND</td>
+                      <td><a className="TextA" style={{cursor:'pointer'}}>LOGIN</a></td>
+                      <td style={{width:'50px'}}></td>
+                      <td><a className="TextA" style={{cursor:'pointer'}}>SIGN UP</a></td>
+                      <td style={{width:'50px'}}></td>
+                      <td><a className="TextA" style={{cursor:'pointer'}}>FIND</a></td>
                    </tr>
                  </tbody>
                 </table>
@@ -34,11 +36,11 @@ export default class Header extends Component {
       <table style={{width:'80%', marginLeft:'10%'}}>
         <tbody>
           <tr>
-          <td><a className="mainMenu">Google</a></td>
-          <td><a className="mainMenu">Mobile</a></td>
-          <td><a className="mainMenu">PC</a></td>
-          <td><a className="mainMenu">About</a></td>
-          <td><a className="mainMenu">Help</a></td>
+          <td className="menu_Td"><a className="mainMenu">Google</a></td>
+          <td className="menu_Td"><a className="mainMenu">Mobile</a></td>
+          <td className="menu_Td"><a className="mainMenu">PC</a></td>
+          <td className="menu_Td"><a className="mainMenu">About</a></td>
+          <td className="menu_Td"><a className="mainMenu">Help</a></td>
           </tr>
       </tbody></table>
     </div>
