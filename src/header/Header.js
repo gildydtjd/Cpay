@@ -21,9 +21,9 @@ export default class Header extends Component {
                   <tbody>
                     <tr>
                       <td><a className="TextA" style={{cursor:'pointer'}}>LOGIN</a></td>
-                      <td style={{width:'50px'}}></td>
+                      <td style={{width:'60px'}}></td>
                       <td><a className="TextA" style={{cursor:'pointer'}}>SIGN UP</a></td>
-                      <td style={{width:'50px'}}></td>
+                      <td style={{width:'60px'}}></td>
                       <td><a className="TextA" style={{cursor:'pointer'}}>FIND</a></td>
                    </tr>
                  </tbody>
