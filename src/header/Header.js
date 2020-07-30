@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './header.css';
+import { Link } from "react-router-dom";
+
 export default class Header extends Component {
   render() {
     return (
@@ -7,18 +9,10 @@ export default class Header extends Component {
         <table className="header_top">
           <tbody>
             <tr>
-              <td style={{verticalAlign:'top', width:'33%'}}>
-                <a href="/"><img alt="" style={{width:'400px', height:'300px', marginLeft:'100px'}} src="./Img/Cpay_mainLogo.png"/></a>
+              <td style={{float:'left'}}>
+                <Link to="/"><img alt ="" style={{width:'400px', height:'100px', marginLeft:'50px', marginTop:'10%'}} src="./Img/CpayLogo2.png"/></Link>
+                <p style={{width:'400px', height:'30px', marginLeft:'50px', backgroundColor:'#c9c9c9', color:'white', lineHeight:'29px'}}>2020년 대리결제 사이트 1위</p>
               </td>
-
-              <td style={{width:'33%'}}>
-              <div className="frame">
-                <div className="center">
-                  <input type="text" placeholder="리니지m"/>
-                </div>
-              </div>              
-              </td>
-
             </tr>
           </tbody>
         </table>        
