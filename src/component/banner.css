@@ -1,5 +1,6 @@
 .Banner{
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
   height: 500px;
   background-image: url("https://www.pcgamesn.com/wp-content/uploads/2020/06/league_of_legends_arcanist_kogmaw_splash-900x506.jpg");
   background-position: center;

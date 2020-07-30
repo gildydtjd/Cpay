@@ -5,6 +5,7 @@
 .header-class {
   position: fixed;
   width: 89.2vw;
+  z-index: 20;
 }
 
 .header-class ul {

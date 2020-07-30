@@ -25,7 +25,7 @@ export default class LoginBody extends Component {
     });
 
     return (
-      <div style={{width:'80%', marginLeft :'10%'}}>
+      <div style={{width:'100%'}}>
         <Header />
       <div className="Login_body">
       <div className="login-form">
