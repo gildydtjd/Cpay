@@ -57,8 +57,8 @@ export default class Footer extends Component {
                         <img style={{width:'163px', paddingRight:'20px'}} alt="" src="./Img/CpayLogo.png"></img>
                       </td>
                       <td style={{paddingLeft:'30px'}}>
-                        <div>(주)씨페이 | 주소 : 경기도 남양주시 도농동 부영애시앙 8층 202호 | 통신판매번호 : 제 2020-경기남양주-9999 호</div>
-                        <div style={{marginTop:'5px'}}>사업자등록번호 : 999-99-99999 | 대표 : 길용성</div>
+                        <div>(주)씨페이 | 주소 : 경기도 남양주시 도농동 부영애시앙 8층 202호 | 통신판매번호 : 제 2020-경기남양주-0000 호</div>
+                        <div style={{marginTop:'5px'}}>사업자등록번호 : 000-00-00000 | 대표 : 길용성</div>
                         <div style={{marginTop:'5px'}}>대표전화 : 010-3094-1587 | 휴대전화 : 010-3094-1587 | 이메일 : gildydtjd@naver.com</div>
                         <div style={{marginTop:'5px'}}>Copyright by Dragon All Rights Reserved.</div>
                       </td>

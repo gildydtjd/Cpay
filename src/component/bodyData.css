@@ -1,6 +1,7 @@
 .body_Data{
   width: 80%;
   margin-left: 10%;
+
 }
 
 .mainContentPosition {
@@ -31,4 +32,8 @@
 
 .radius30:hover + .gameListCover{
   background-color: yellow;
+}
+
+.radius30 {
+  display: inline-block;
 }
