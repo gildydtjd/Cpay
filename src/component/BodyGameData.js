@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import "./bodyData.css";
+import { Link } from "react-router-dom";
+
 export default class BodyGameData extends Component {
   render() {
     const gameData = [
@@ -44,10 +46,12 @@ export default class BodyGameData extends Component {
         {gameData.map((game, index) => (
             <div key={index}  style={{width:'295px', height:'345px', verticalAlign:'top', display:'inline-block', marginRight:'10px'}}>
             <div style={{position:'relative', width:'100%', height:'330px', cursor:'pointer', display:'inline-block'}}>
-            <div className="gameListCover">
+            <Link to="/Login"><div className="gameListCover">
+            {/* <Link to="/gameInfo/game?{game.id}"><div className="gameListCover"> */}
+            
             <img alt="" src={game.url} style={{position:'absolute',top:'5px', left:'5px', width:'285px', height:'285px'}} className="radius30"></img>,
             <div style={{position:'absolute', zIndex:'10', top:'300px', width:'295px', height:'20px', textAlign:'center'}} className="textE S18">{game.name}</div>
-            </div>
+            </div></Link>
             </div>
             </div>
         ))}
