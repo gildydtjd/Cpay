@@ -12,7 +12,6 @@ export default class BodyGameData extends Component {
         url : "./Img/game/ragnarok.png"
       },
       {
-
         name : "아케인m",
         url : "./Img/game/Acain.jpg"
       },
@@ -42,17 +41,16 @@ export default class BodyGameData extends Component {
         <div style={{height:'60px', marginTop:'40px', textAlign:'center', fontSize:'48px', fontFamily: 'Nanum Gothic E', fontWeight:'600', marginBottom:'50px'}}>베스트 상품</div>
         <div style={{position: 'relative', height: '720px', marginBottom: '50px', display:'inline-block'}}>
           <div className="mainContentPosition">
-        {gameData.map(game => {
-          return(
-            <div style={{width:'295px', height:'345px', verticalAlign:'top', display:'inline-block'}}>
-            <div style={{position:'relative', width:'100%', height:'330px', cursor:'pointer', display:'inline-block'}} onclick="/">
+        {gameData.map((game, index) => (
+            <div key={index}  style={{width:'295px', height:'345px', verticalAlign:'top', display:'inline-block'}}>
+            <div style={{position:'relative', width:'100%', height:'330px', cursor:'pointer', display:'inline-block'}}>
             <div className="gameListCover">
-            <img key={game.key} src={game.url} style={{position:'absolute',top:'5px', left:'5px', width:'285px', height:'285px'}} className="radius30"></img>,
-            <div key={game.key} style={{position:'absolute', zIndex:'10', top:'300px', width:'295px', height:'20px', textAlign:'center'}} className="textE S18">{game.name}</div>
+            <img alt="" src={game.url} style={{position:'absolute',top:'5px', left:'5px', width:'285px', height:'285px'}} className="radius30"></img>,
+            <div style={{position:'absolute', zIndex:'10', top:'300px', width:'295px', height:'20px', textAlign:'center'}} className="textE S18">{game.name}</div>
             </div>
             </div>
             </div>
-          )})}
+        ))}
           </div>
           </div>
         </div>
