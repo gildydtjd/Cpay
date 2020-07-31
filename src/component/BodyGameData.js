@@ -42,7 +42,7 @@ export default class BodyGameData extends Component {
         <div style={{position: 'relative', height: '720px', marginBottom: '50px', display:'inline-block'}}>
           <div className="mainContentPosition">
         {gameData.map((game, index) => (
-            <div key={index}  style={{width:'295px', height:'345px', verticalAlign:'top', display:'inline-block'}}>
+            <div key={index}  style={{width:'295px', height:'345px', verticalAlign:'top', display:'inline-block', marginRight:'10px'}}>
             <div style={{position:'relative', width:'100%', height:'330px', cursor:'pointer', display:'inline-block'}}>
             <div className="gameListCover">
             <img alt="" src={game.url} style={{position:'absolute',top:'5px', left:'5px', width:'285px', height:'285px'}} className="radius30"></img>,
