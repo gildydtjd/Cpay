@@ -1,9 +1,81 @@
 .Banner{
+  display: flex;
   width: 80%;
   margin-left: 10%;
   height: 500px;
-  background-image: url("https://www.pcgamesn.com/wp-content/uploads/2020/06/league_of_legends_arcanist_kogmaw_splash-900x506.jpg");
+  background-image: url("https://attach.lolchess.gg/2020%2F04%2F15%2F1586900406359-Patch_10.8_Notes_Banner_v3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.help{
+  background-color:black;
+  width:30%;
+  height:350px;
+  border-radius:50px;
+  margin-top: 50px;
+  margin-right: 40px;
+}
+
+.help2{
+  background-color:black;
+  width:30%;
+  height:350px;
+  border-radius:50px;
+  margin-top: 50px;
+  margin-right: 40px;
+}
+
+.help3{
+  background-color:black;
+  width:30%;
+  height:300px;
+  border-radius:50px;
+  margin-top: 50px;
+  margin-right: 40px;
+}
+
+.help h1, h3, h5 {
+  font-family: Roboto,sans-serif;
+  padding: 1rem;
+  border: 3;
+  cursor: pointer;
+  opacity: .8;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.help span {
+  font-family: Roboto,sans-serif;
+  border: 3;
+  cursor: pointer;
+  opacity: .8;
+  color: yellow;
+  font-weight: 600;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.help2 span {
+  font-family: Roboto,sans-serif;
+  border: 3;
+  cursor: pointer;
+  opacity: .8;
+  color: yellow;
+  font-weight: 600;
+  line-height: 80px;
+  font-size: 20px;
+}
+
+.help3 span {
+  font-family: Roboto,sans-serif;
+  border: 3;
+  cursor: pointer;
+  opacity: .8;
+  color: yellow;
+  font-weight: 600;
+  line-height: 50px;
+  font-size: 20px;
 }
