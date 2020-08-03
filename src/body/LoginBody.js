@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import "./loginBody.css";
 import $ from 'jquery';
-import Header from '../header/Header';
+import Header from '../component/header/Header';
 
 export default class LoginBody extends Component {
   render() {

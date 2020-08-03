@@ -3,9 +3,9 @@ import './App.css';
 import MainBody from './body/MainBody';
 import LoginBody from './body/LoginBody'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Footer from './footer/Footer';
-import Header2 from './header/Header2';
 import ProductDetail from './body/ProductDetail';
+import Footer from './component/footer/Footer';
+import Header2 from './component/header/Header2';
 
 function App() {
   

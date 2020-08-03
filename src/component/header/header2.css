@@ -3,7 +3,7 @@
 }
 
 .header-class {
-  position: fixed;
+  position: absolute;
   width: 89.2vw;
   z-index: 20;
 }
