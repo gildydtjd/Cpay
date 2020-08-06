@@ -13,8 +13,8 @@ export default class Header2 extends Component {
             <ul>
             <Link to="/"><li className="header-li">고객센터</li></Link>
             <Link to="/"><li className="header-li">이용방법</li></Link>
-            <Link to="/"><li className="header-li">PC</li></Link>
-            <Link to="/"><li className="header-li">Google</li></Link>
+            <Link to="/PcProduct"><li className="header-li">PC</li></Link>
+            <Link to="/GoogleProduct"><li className="header-li">Google</li></Link>
             <Link to="/Login"><li className="header-li">Login</li></Link>
             </ul>
             </div>

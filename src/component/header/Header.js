@@ -10,7 +10,7 @@ export default class Header extends Component {
           <tbody>
             <tr>
               <td style={{float:'left'}}>
-                <Link to="/" style={{padding:'0'}}><img alt ="" style={{width:'400px', height:'100px', marginLeft:'50px', marginTop:'10%', marginBottom:'-4px'}} src="../Img/CpayLogo2.png"/></Link>
+                <Link to="/" style={{padding:'0'}}><img alt ="" style={{width:'400px', height:'100px', marginLeft:'50px', marginTop:'10%', marginBottom:'-4px'}} src="../../Img/CpayLogo2.png"/></Link>
                 <p style={{width:'400px', height:'30px', marginLeft:'50px', backgroundColor:'#c9c9c9', color:'white', lineHeight:'29px'}}>2020년 대리결제 사이트 1위</p>
               </td>
             </tr>
