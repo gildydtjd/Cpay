@@ -15,7 +15,7 @@ function App() {
         <Header2 />
         <Route exact path="/" component={MainBody} />
         <Route path="/Login" component={LoginBody} />
-        <Route path="/Product/detail" component={ProductDetail} />
+        <Route path="/Product/detail/:keyword" component={ProductDetail} />
         <Footer />
       </Router>
     </div>

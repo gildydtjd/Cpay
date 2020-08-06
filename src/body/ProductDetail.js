@@ -3,17 +3,46 @@ import Header from '../component/header/Header'
 import './productDetail.css';
 
 export default class ProductDetail extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name : "",
+      url : "",
+      keyword : "",
+    }
+  }
+
+  componentDidMount(){
+    const keyword = this.props.match.params.keyword;
+    console.log(keyword);
+    switch(keyword){
+      case 'lineage' : 
+      this.setState({
+        name : "리니지m",
+        url : "./Img/game/lineage.jpg"
+      })
+      break;
+
+      case 'ragnarok' :
+        this.setState({
+          name : "라그나로크 오리진",
+          url : "./Img/game/ragnarok.png"
+        })
+        break;
+        default :
+  }
+}
   render() {
     return (
       <div>
         <Header />
           <div style={{height:'800px'}}>
-            <div style={{borderBottom:'4px solid black', width:'70%', marginLeft:'15%', fontSize:'30px', fontWeight:'500', marginBottom:'50px', lineHeight:'70px'}}>{}구매 정보</div>
+            <div style={{borderBottom:'4px solid black', width:'70%', marginLeft:'15%', fontSize:'30px', fontWeight:'500', marginBottom:'50px', lineHeight:'70px'}}>{this.state.name}구매 정보</div>
               <table style={{width:'70%', borderTop:'2px solid #cdcdcd', borderBottom:'2px solid #cdcdcd', marginLeft:'15%'}}>
                 <tbody>
                   <tr>
                       <td className="detail_category">상품명</td>
-                      <td className="formBody L">리니지M</td>
+                      <td className="formBody L">{this.state.name}</td>
                     </tr>
                   <tr>
                     <td className="detail_category">월간상품</td>
