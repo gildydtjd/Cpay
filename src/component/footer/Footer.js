@@ -5,7 +5,7 @@ export default class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <table style={{width:'100%', backgroundColor:'#f5f5f5'}}>
+        <table className="footer_table"style={{width:'100%'}}>
           <tbody>
             <tr>
               <td></td>
