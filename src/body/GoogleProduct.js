@@ -49,7 +49,7 @@ export default class GoogleProduct extends Component {
     return (
       <div>
         <Header />
-          <div style={{height:'800px'}}>
+          <div style={{height:'850px'}}>
           <div className="body_Data">
         <div style={{height:'60px', marginTop:'40px', textAlign:'center', fontSize:'48px', fontFamily: 'Nanum Gothic E', fontWeight:'600', marginBottom:'50px'}}>Google 게임</div>
         <div style={{position: 'relative', height: '720px', marginBottom: '50px', display:'inline-block'}}>

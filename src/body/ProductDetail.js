@@ -19,16 +19,115 @@ export default class ProductDetail extends Component {
       case 'lineage' : 
       this.setState({
         name : "리니지m",
-        url : "./Img/game/lineage.jpg"
+        url : "../../Img/game/lineage.jpg"
       })
       break;
 
       case 'ragnarok' :
         this.setState({
           name : "라그나로크 오리진",
-          url : "./Img/game/ragnarok.png"
+          url : "../../Img/game/ragnarok.png"
         })
         break;
+
+        case 'Acain' :
+        this.setState({
+          name : "아케인m",
+          url : "../../Img/game/Acain.jpg"
+        })
+        break;
+
+        case 'stone' :
+        this.setState({
+          name : "스톤에이지 월드",
+          url : "../../Img/game/stone.png"
+        })
+        break;
+
+        case 'wind' :
+        this.setState({
+          name : "바람의나라:연",
+          url : "../../Img/game/wind.jpg"
+        })
+        break;
+
+        case 'mu' :
+        this.setState({
+          name : "뮤 아크엔젤",
+          url : "../../Img/game/mu.png"
+        })
+        break;
+
+        case 'a3' :
+          this.setState({
+            name : "A3:스틸얼라이브",
+            url : "../../Img/game/a3.jpg"
+          })
+          break;
+
+        case 'ma9ma9' :
+        this.setState({
+          name : "마구마구2020",
+          url : "../../Img/game/ma9ma9.png"
+        })
+        break;
+
+        case 'lol' :
+        this.setState({
+          name : "리그오브레전드",
+          url : "../../Img/pc/lol.jpg"
+        })
+        break;
+
+        case 'lostArk' :
+          this.setState({
+            name : "로스트 아크",
+            url : "../../Img/pc/lostArk.jpg"
+          })
+          break;
+          
+        case 'windwind' :
+          this.setState({
+            name : "바람의나라",
+            url : "../../Img/pc/windwind.png"
+          })
+          break;
+          
+        case 'over' :
+          this.setState({
+            name : "오버워치",
+            url : "../../Img/pc/over.jpg"
+          })
+          break;
+          
+        case 'sudden' :
+          this.setState({
+            name : "서든어택",
+            url : "../../Img/pc/sudden.jpg"
+          })
+          break;
+          
+        case 'world' :
+          this.setState({
+            name : "월드 오브 워크래프트",
+            url : "../../Img/pc/world.jpg"
+          })
+          break;
+          
+        case 'steam' :
+          this.setState({
+            name : "스팀",
+            url : "../../Img/pc/steam.jpg"
+          })
+          break;
+          
+        case 'fifa' :
+          this.setState({
+            name : "피파온라인",
+            url : "../../Img/pc/fifa.jpg"
+          })
+          break;
+          
         default :
   }
 }
@@ -37,8 +136,9 @@ export default class ProductDetail extends Component {
       <div>
         <Header />
           <div style={{height:'800px'}}>
-            <div style={{borderBottom:'4px solid black', width:'70%', marginLeft:'15%', fontSize:'30px', fontWeight:'500', marginBottom:'50px', lineHeight:'70px'}}>{this.state.name}구매 정보</div>
-              <table style={{width:'70%', borderTop:'2px solid #cdcdcd', borderBottom:'2px solid #cdcdcd', marginLeft:'15%'}}>
+            <div style={{borderBottom:'4px solid black', width:'70%', marginLeft:'15%', fontSize:'30px', fontWeight:'500', marginBottom:'50px', lineHeight:'70px'}}>{this.state.name} / 구매 정보</div>
+              <div style={{width :'35%', float:'left', marginLeft:'10%'}}><img alt="" style={{width:'250px', height:'250px'}} src={this.state.url}></img></div>
+              <table style={{width:'40%', borderTop:'2px solid #cdcdcd', borderBottom:'2px solid #cdcdcd'}}>
                 <tbody>
                   <tr>
                       <td className="detail_category">상품명</td>

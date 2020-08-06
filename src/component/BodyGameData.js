@@ -11,14 +11,14 @@ export default class BodyGameData extends Component {
         url : "./Img/game/lineage.jpg"
       },
       {
-        engN : "ragnarok",
-        name : "라그나로크 오리진",
-        url : "./Img/game/ragnarok.png"
+        engN : "lol",
+        name : "리그오브레전드",
+        url : "../../Img/pc/lol.jpg"
       },
       {
-        engN : "Acain",
-        name : "아케인m",
-        url : "./Img/game/Acain.jpg"
+        engN : "fifa",
+        name : "피파온라인",
+        url : "../../Img/pc/fifa.jpg"
       },
       {
         engN : "stone",
@@ -26,20 +26,21 @@ export default class BodyGameData extends Component {
         url : "./Img/game/stone.png"
       },
       {
+        engN : "steam",
+        name : "스팀",
+        url : "../../Img/pc/steam.jpg"
+      },
+      {
         engN : "wind",
         name : "바람의나라:연",
         url : "./Img/game/wind.jpg"
       },
       {
-        engN : "mu",
-        name : "뮤 아크엔젤",
-        url : "./Img/game/mu.png"
+        engN : "over",
+        name : "오버워치",
+        url : "../../Img/pc/over.jpg"
       },
-      {
-        engN : "a3",
-        name : "A3:스틸얼라이브",
-        url : "./Img/game/a3.jpg"
-      },
+      
       {
         engN : "ma9ma9",
         name : "마구마구2020",

@@ -6,50 +6,50 @@ export default class PcProduct extends Component {
   render() {
     const gameData = [
       {
-        engN : "lineage",
-        name : "리니지m",
-        url : "./Img/game/lineage.jpg"
+        engN : "lol",
+        name : "리그오브레전드",
+        url : "../Img/pc/lol.jpg"
       },
       {
-        engN : "ragnarok",
-        name : "라그나로크 오리진",
-        url : "./Img/game/ragnarok.png"
+        engN : "lostArk",
+        name : "로스트 아크",
+        url : "../Img/pc/lostArk.jpg"
       },
       {
-        engN : "Acain",
-        name : "아케인m",
-        url : "./Img/game/Acain.jpg"
+        engN : "windwind",
+        name : "바람의나라",
+        url : "../Img/pc/windwind.png"
       },
       {
-        engN : "stone",
-        name : "스톤에이지 월드",
-        url : "./Img/game/stone.png"
+        engN : "over",
+        name : "오버워치",
+        url : "../Img/pc/over.jpg"
       },
       {
-        engN : "wind",
-        name : "바람의나라:연",
-        url : "./Img/game/wind.jpg"
+        engN : "sudden",
+        name : "서든어택",
+        url : "../Img/pc/sudden.jpg"
       },
       {
-        engN : "mu",
-        name : "뮤 아크엔젤",
-        url : "./Img/game/mu.png"
+        engN : "world",
+        name : "월드 오브 워크래프트",
+        url : "../Img/pc/world.jpg"
       },
       {
-        engN : "a3",
-        name : "A3:스틸얼라이브",
-        url : "./Img/game/a3.jpg"
+        engN : "steam",
+        name : "스팀",
+        url : "../Img/pc/steam.jpg"
       },
       {
-        engN : "ma9ma9",
-        name : "마구마구2020",
-        url : "./Img/game/ma9ma9.png"
+        engN : "fifa",
+        name : "피파온라인",
+        url : "../Img/pc/fifa.jpg"
       },
     ]
     return (
       <div>
         <Header />
-          <div style={{height:'800px'}}>
+          <div style={{height:'850px'}}>
           <div className="body_Data">
         <div style={{height:'60px', marginTop:'40px', textAlign:'center', fontSize:'48px', fontFamily: 'Nanum Gothic E', fontWeight:'600', marginBottom:'50px'}}>PC 게임</div>
         <div style={{position: 'relative', height: '720px', marginBottom: '50px', display:'inline-block'}}>

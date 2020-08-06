@@ -30,7 +30,7 @@ export default class Footer extends Component {
                             <tr>
                               <td><img style={{width:'19px', height:'19px'}} alt="" src="https://png.pngtree.com/png-vector/20190116/ourmid/pngtree-vector-upload-icon-png-image_322162.jpg"></img></td>
                               <td style={{width:'4px'}}></td>
-                              <td className="TextB" style={{color:'#313131', fontWeight:'900'}}>맨위로</td>
+                              <td className="TextB" onClick={() => window.scrollTo(0,0)} style={{color:'#313131', fontWeight:'900'}}>맨위로</td>
                             </tr>
                           </tbody>
                         </table>
