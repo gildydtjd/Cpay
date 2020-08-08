@@ -147,16 +147,18 @@ export default class ProductDetail extends Component {
                   <tr>
                     <td className="detail_category">월간상품</td>
                     <td className="formBody L">
-                      <select id="optionList1" name="optionList1" onchange="selectedOption(1);" className="selectBox" style={{padding:'5px 10px 5px 10px'}}>
+                    <select id="optionList2" name="optionList2" onchange="selectedOption(2);" className="selectBox" style={{padding:'5px 10px 5px 10px'}}>
                         <option value="">-결제하실 상품을 선택하세요-</option>
-                        <option value="1" data="52250">빛나는 드래곤의 다이아몬드 상자 패키지</option>
-                        <option value="2" data="52250">빛나는 컬렉션 조각 상자 패키지</option>
+                        <option value="1" data="31350">라라의 빛나는 보급 상자</option>
+                        <option value="2" data="31350">아툰의 상자</option>
+                        <option value="3" data="31350">판도라의 상자</option>
+                        <option value="4" data="31350">아슈르의 특별한 보급 상자</option>
                       </select>
                     </td>
                   </tr>
                   <tr>
                     <td className="detail_category">패키지</td>
-                    <td className="formBody L">
+                    <td className="formBody L"> 
                       <select id="optionList2" name="optionList2" onchange="selectedOption(2);" className="selectBox" style={{padding:'5px 10px 5px 10px'}}>
                         <option value="">-결제하실 상품을 선택하세요-</option>
                         <option value="1" data="31350">라라의 빛나는 보급 상자</option>
